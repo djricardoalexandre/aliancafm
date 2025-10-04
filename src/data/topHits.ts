@@ -7,16 +7,16 @@ export interface Hit {
 }
 
 export const topHitsData: Hit[] = [
-  { id: '1', title: 'Evidências', artist: 'Chitãozinho & Xororó', category: 'nacional', play_count: 1250 },
-  { id: '2', title: 'Anunciação', artist: 'Alceu Valença', category: 'nacional', play_count: 980 },
-  { id: '3', title: 'Hoje Eu Quero Sair Só', artist: 'Péricles', category: 'nacional', play_count: 875 },
-  { id: '4', title: 'Telegrama', artist: 'Zé Neto & Cristiano', category: 'nacional', play_count: 820 },
-  { id: '5', title: 'Regime Fechado', artist: 'Simone Mendes', category: 'nacional', play_count: 795 },
-  { id: '6', title: 'Nosso Quadro', artist: 'Ana Castela', category: 'nacional', play_count: 750 },
-  { id: '7', title: 'Casca de Bala', artist: 'Thiago Aquino', category: 'nacional', play_count: 680 },
-  { id: '8', title: 'Expectativa x Realidade', artist: 'Menos é Mais', category: 'nacional', play_count: 645 },
-  { id: '9', title: 'Fé nas Maluca', artist: 'João Gomes', category: 'nacional', play_count: 610 },
-  { id: '10', title: 'Erro Gostoso', artist: 'Simone & Simaria', category: 'nacional', play_count: 590 },
+  { id: '1', title: 'SE EU TE PERDOAR', artist: 'CLAYTON & ROMARIO Part.ZE FELIPE', category: 'nacional', play_count: 1250 },
+  { id: '2', title: 'MUDOU O TEXTO', artist: 'DANILO & DAVI', category: 'nacional', play_count: 980 },
+  { id: '3', title: 'OH VIDA', artist: 'JOAO NETO & FREDERICO', category: 'nacional', play_count: 875 },
+  { id: '4', title: 'RETROVISOR', artist: 'GUSTTAVO LIMA', category: 'nacional', play_count: 820 },
+  { id: '5', title: 'GRAMA DO VIZINHO', artist: 'BRUNO ROSA Part.JORGE & MATEUS', category: 'nacional', play_count: 795 },
+  { id: '6', title: 'RESUMINDO', artist: 'ZE NETO & CRISTIANO', category: 'nacional', play_count: 750 },
+  { id: '7', title: 'OLHA ONDE EU TO', artist: 'ANA CASTELA', category: 'nacional', play_count: 680 },
+  { id: '8', title: 'OBRA DE ARTE', artist: 'JOAO PEDRO & CRISTIANO', category: 'nacional', play_count: 645 },
+  { id: '9', title: 'FOI MAL DEUS', artist: 'HUGO & GUILHERME', category: 'nacional', play_count: 610 },
+  { id: '10', title: 'GRAU DE MALUCA', artist: 'GUILHERME & BENUTO', category: 'nacional', play_count: 590 },
 
   { id: '11', title: 'Flowers', artist: 'Miley Cyrus', category: 'internacional', play_count: 1420 },
   { id: '12', title: 'Calm Down', artist: 'Rema & Selena Gomez', category: 'internacional', play_count: 1180 },
