@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/image.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#22c55e" />
+    <meta name="description" content="Rádio Aliança FM 87.9 - Jaguariaíva, Paraná - Só Sucesso! Sucessos nacionais e internacionais 24 horas." />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/image.png" />
+    <title>Rádio Aliança FM 87.9 - Só Sucesso!</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log('Service Worker registrado'))
+            .catch(err => console.log('Erro ao registrar Service Worker:', err));
+        });
+      }
+    </script>
+  </body>
+</html>
